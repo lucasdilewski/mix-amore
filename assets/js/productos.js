@@ -64,7 +64,8 @@ window.MIXAMORE = {
       "contenido": [
         "1 peluche conejito con corazón \"Te Amo\"",
         "1 globo de corazón",
-        "1 alfajor Cofler Block",
+        "1 alfajor Milka",
+        "1 Chocolatito Block",
         "1 Cofler Relleno de dulce de leche",
         "4 Bon o Bon surtidos",
         "Chocolates individuales adicionales"
@@ -196,7 +197,6 @@ window.MIXAMORE = {
         "1 Cofler Relleno",
         "2 Bon o Bon",
         "1 Nugatón",
-        "Golosina sorpresa adicional",
         "Caja tipo cartera con cadena dorada"
       ],
       "precio_base": 33000,
@@ -291,7 +291,8 @@ window.MIXAMORE = {
       "descripcion": "Un peluche de conejito abrazando un corazón, rodeado de Raffaello, Kinder Chocolate y Bon o Bon, presentado en un original marco con forma de corazón envuelto en celofán y moño fucsia.",
       "contenido": [
         "1 peluche conejito con corazón",
-        "2 cajitas de Raffaello",
+        "2 Bombones de Raffaello",
+        "3 Bombones Ferrero Rocher",
         "Bon o Bon surtidos",
         "1 Kinder Chocolate",
         "Presentación en marco corazón con celofán y moño"
