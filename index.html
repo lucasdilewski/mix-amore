@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mix Amore — Cajas dulces</title>
+<meta name="description" content="Cajas dulces para decir lo que las palabras no alcanzan">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__barra envoltura">
+    <a href="#" class="marca" id="marca-header">Mix Amore</a>
+    <nav class="nav">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#como-comprar">Cómo comprar</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button type="button" class="carrito-boton" id="carrito-abrir" aria-label="Ver carrito">
+      <span class="carrito-boton__icono" aria-hidden="true">🛍️</span>
+      <span class="carrito-boton__texto">Mi pedido</span>
+      <span class="carrito-contador" id="carrito-contador" hidden>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__contenido">
+    <h1 class="hero__titulo" id="hero-titulo">Mix Amore</h1>
+    <p class="hero__bajada" id="hero-bajada">Cajas dulces para decir lo que las palabras no alcanzan</p>
+    <a href="#catalogo" class="boton">Ver el catálogo</a>
+  </div>
+</section>
+
+<section class="seccion" id="catalogo">
+  <h2 class="seccion__titulo">Nuestras cajas</h2>
+  <p class="seccion__intro">Elegí una caja para ver el contenido completo, el tamaño y personalizar tu mensaje.</p>
+
+  <div class="grilla" id="grilla">
+    <!-- Las cajas se arman automáticamente acá con los datos de assets/js/productos.js -->
+  </div>
+</section>
+
+<section class="seccion" id="como-comprar">
+  <h2 class="seccion__titulo">Cómo comprar</h2>
+  <div class="pasos">
+    <div class="paso">
+      <div class="paso__numero">1</div>
+      <p class="paso__titulo">Elegí tu caja</p>
+      <p class="paso__texto">Mirá el catálogo y tocá la que más te guste para ver todo el contenido.</p>
+    </div>
+    <div class="paso">
+      <div class="paso__numero">2</div>
+      <p class="paso__titulo">Personalizá y agregá</p>
+      <p class="paso__texto">Elegí el tamaño, la cantidad y las personalizaciones, y sumala a tu pedido. Podés agregar todas las cajas que quieras.</p>
+    </div>
+    <div class="paso">
+      <div class="paso__numero">3</div>
+      <p class="paso__titulo">Confirmá por WhatsApp</p>
+      <p class="paso__texto">Cuando termines, abrí tu pedido y confirmalo por WhatsApp con todo junto para coordinar pago y entrega.</p>
+    </div>
+  </div>
+
+  <div class="envios">
+    <span class="envios__icono" aria-hidden="true">🚚</span>
+    <p><strong>Envíos:</strong> <span id="envios-texto"></span></p>
+  </div>
+</section>
+
+<footer class="footer" id="contacto">
+  <p class="footer__marca" id="footer-marca">Mix Amore</p>
+  <p class="footer__linea" id="footer-ciudad"></p>
+  <p class="footer__linea">
+    WhatsApp: <span id="footer-whatsapp"></span> ·
+    <a href="#" id="footer-instagram"></a>
+  </p>
+  <p class="footer__linea" id="footer-email"></p>
+</footer>
+
+<!-- Modal de detalle de producto -->
+<div class="modal-fondo" id="modal-fondo">
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-nombre">
+    <div class="modal__visual" id="modal-visual">
+      <button type="button" class="modal__cerrar" id="modal-cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal__visual-contenido" id="modal-visual-contenido"></div>
+    </div>
+    <div class="modal__cuerpo">
+      <span class="modal__badge" id="modal-badge"></span>
+      <h2 class="modal__nombre" id="modal-nombre"></h2>
+      <p class="modal__descripcion" id="modal-descripcion"></p>
+
+      <div class="modal__aviso" id="modal-aviso" style="display:none;">
+        <span class="modal__aviso-icono" aria-hidden="true">ℹ️</span>
+        <p id="modal-aviso-texto"></p>
+      </div>
+
+      <div class="modal__bloque">
+        <p class="modal__subtitulo">Qué incluye</p>
+        <ul class="modal__lista" id="modal-lista"></ul>
+      </div>
+
+      <div class="modal__bloque" id="modal-personalizaciones-wrap" style="display:none;">
+        <p class="modal__subtitulo">Personalizá tu caja</p>
+        <div id="modal-personalizaciones"></div>
+      </div>
+
+      <div class="modal__bloque campo" id="modal-personalizacion-texto-wrap" style="display:none;">
+        <label id="modal-personalizacion-texto-label" for="modal-personalizacion-texto"></label>
+        <textarea id="modal-personalizacion-texto"></textarea>
+        <p class="modal__nota" id="modal-personalizacion-texto-nota"></p>
+      </div>
+
+      <div class="modal__bloque" id="modal-tamanios-wrap">
+        <p class="modal__subtitulo">Tamaño</p>
+        <div class="tamanios" id="modal-tamanios"></div>
+        <p class="modal__nota" id="modal-nota-tamanios"></p>
+      </div>
+
+      <div class="modal__bloque">
+        <div class="campo">
+          <label for="modal-mensaje">Mensaje para la tarjeta (opcional)</label>
+          <textarea id="modal-mensaje" placeholder="Escribí acá lo que quieras que digamos en la tarjeta..."></textarea>
+        </div>
+      </div>
+
+      <div class="modal__bloque">
+        <p class="modal__subtitulo">Cantidad</p>
+        <div class="fila-cantidad">
+          <div class="contador">
+            <button type="button" id="cantidad-menos" aria-label="Restar una unidad">−</button>
+            <span id="modal-cantidad">1</span>
+            <button type="button" id="cantidad-mas" aria-label="Sumar una unidad">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal__total">
+        <span class="modal__total-label">Total estimado</span>
+        <span class="modal__total-valor" id="modal-total-valor"></span>
+      </div>
+
+      <button type="button" class="boton boton--whatsapp" id="boton-agregar-carrito">
+        Agregar al carrito
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Panel del carrito -->
+<div class="carrito-fondo" id="carrito-fondo">
+  <div class="carrito-panel" id="carrito-panel" role="dialog" aria-modal="true" aria-labelledby="carrito-titulo">
+    <div class="carrito-panel__header">
+      <h2 id="carrito-titulo">Tu pedido</h2>
+      <button type="button" class="modal__cerrar" id="carrito-cerrar" aria-label="Cerrar carrito">✕</button>
+    </div>
+
+    <p class="carrito-vacio" id="carrito-vacio">Todavía no agregaste ninguna caja. Elegí una del catálogo para empezar tu pedido.</p>
+
+    <div class="carrito-lista" id="carrito-lista"></div>
+
+    <div class="carrito-panel__resumen" id="carrito-resumen" style="display:none;">
+      <div class="modal__total">
+        <span class="modal__total-label">Total del pedido</span>
+        <span class="modal__total-valor" id="carrito-total-valor"></span>
+      </div>
+      <button type="button" class="boton boton--whatsapp" id="carrito-finalizar">
+        Finalizar pedido por WhatsApp
+      </button>
+      <button type="button" class="boton boton--fantasma" id="carrito-seguir">
+        Seguir eligiendo cajas
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/productos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
