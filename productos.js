@@ -15,7 +15,7 @@ window.MIXAMORE = {
     "tagline": "Cajas dulces para decir lo que las palabras no alcanzan",
     "whatsapp_numero": "5493517548392",
     "moneda": "$",
-    "envios": "Si estás cerca, te llevamos la caja sin costo. Si estás más lejos, no hay problema: coordinamos el envío con vos por WhatsApp según la zona.",
+    "envios": "Hacemos envíos mediante Uber, con costo a cargo del comprador. Coordinamos todos los detalles de la entrega por WhatsApp, de forma rápida y sencilla.",
     "instagram_url": "https://instagram.com/mixamores2026",
     "instagram_usuario": "@mixamores2026",
     "ciudad": "Córdoba, Argentina"
