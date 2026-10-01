@@ -241,7 +241,7 @@ window.MIXAMORE = {
       "color": "#5c4433",
       "imagen": "assets/img/caja-taza-gatuna.jpg",
       "resumen": "Taza de gatitos + capuchino o té, para un mimo total.",
-      "descripcion": "Un combo pensado para relajarse: una taza de cerámica con diseño de gatitos, un sobre de capuchino o té, un alfajor HAPPY FOOD, capuchino y diversas galletitas sin azucar . Presentado en una caja animal print con moño rosa.",
+      "descripcion": "Un combo pensado para relajarse: una taza de cerámica con diseño de gatitos, un sobre de capuchino o té, un alfajor HAPPY FOOD, capuchino y galletitas sin azucar . Presentado en una caja con moño rosa.",
       "contenido": [
         "1 taza de cerámica \"Strawberry Cat\"",
         "1 sobre de capuchino/té La Virginia",
@@ -265,7 +265,7 @@ window.MIXAMORE = {
       "color": "#a9713f",
       "imagen": "assets/img/caja-cafe-con-amor.jpg",
       "resumen": "Taza \"Me & Coffee\" + donuts y alfajor, para los fanáticos del café.",
-      "descripcion": "Para arrancar el día con onda: una taza \"Me & Coffee are a thing\", un sobre de capuchino o té, una bolsa de donuts Bonafide y un alfajor Bon o Bon, presentados en una caja animal print con globo de corazón.",
+      "descripcion": "Para arrancar el día con onda: una taza \"Me & Coffee are a thing\", un sobre de capuchino o té, una bolsa de donuts Bonafide y un alfajor Bon o Bon, presentados en una caja con globo de corazón.",
       "contenido": [
         "1 taza \"Me & Coffee are a thing\"",
         "1 sobre de capuchino/té La Virginia",
@@ -288,7 +288,7 @@ window.MIXAMORE = {
       "color": "#d94f7a",
       "imagen": "assets/img/caja-conejito-corazon.jpg",
       "resumen": "Peluche + Raffaello, Kinder y Bon o Bon, en un original marco corazón.",
-      "descripcion": "Un peluche de conejito abrazando un corazón, rodeado de Raffaello, Kinder Chocolate y Bon o Bon, presentado en un original marco con forma de corazón envuelto en celofán y moño fucsia.",
+      "descripcion": "Un peluche de conejito abrazando un corazón, rodeado de Raffaello, Kinder Chocolate y Bon o Bon, presentado en un original marco con forma de corazón envuelto en celofán y moño.",
       "contenido": [
         "1 peluche conejito con corazón",
         "2 Bombones de Raffaello",
@@ -311,10 +311,10 @@ window.MIXAMORE = {
       "emoji": "🍫",
       "color": "#4a2f22",
       "imagen": "assets/img/caja-antojo-chocolatero.jpg",
-      "resumen": "Selección de chocolates variados (Oreo, Milka, KitKat y más), en caja con moño negro.",
-      "descripcion": "Para los fanáticos del chocolate: una selección variada de las marcas favoritas, presentada en una caja prolija con moño negro y una tarjeta para tu dedicatoria. Ideal para cualquier ocasión.",
+      "resumen": "Selección de chocolates variados (Oreo, Milka, KitKat y más), en caja con moño.",
+      "descripcion": "Para los fanáticos del chocolate: una selección variada de las marcas favoritas, presentada en una caja prolija con moño y una tarjeta para tu dedicatoria. Ideal para cualquier ocasión.",
       "contenido": [
-        "1 Oreo",
+        "1 bolsita de Oreos",
         "1 Alfajor Milka",
         "1 KitKat",
         "1 Rhodesia",
