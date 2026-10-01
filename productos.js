@@ -164,7 +164,7 @@ window.MIXAMORE = {
       "emoji": "🌷",
       "color": "#c9678a",
       "imagen": "assets/img/caja-tulipanes-dulces.jpg",
-      "resumen": "Macetita de tulipanes de tela + golosinas surtidas, en caja con tapa transparente.",
+      "resumen": "Macetita de tulipanes + golosinas surtidas, en caja con tapa transparente.",
       "descripcion": "Una macetita de tulipanes artesanales acompañada de una selección de golosinas y chocolates, presentada en una box con tapa transparente. Ideal para cualquier ocasión donde quieras sorprender con algo distinto a las flores de siempre.",
       "contenido": [
         "1 macetita de tulipanes artesanales de tela",
