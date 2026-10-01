@@ -28,7 +28,7 @@ window.MIXAMORE = {
       "color": "#8a6d3b",
       "imagen": "assets/img/caja-cumple-cervecero.jpg",
       "resumen": "Cervezas (o la bebida que prefieras), snacks y un globo personalizado.",
-      "descripcion": "La canasta ideal para sorprender en un cumpleaños: dos cervezas bien frías, algo dulce y algo salado para picar, y un globo transparente personalizado con el mensaje que quieras. ¿No tomás cerveza? Podés cambiarla por otra bebida. Se entrega armada en canasto de mimbre, lista para regalar.",
+      "descripcion": "La canasta ideal para sorprender en un cumpleaños: dos cervezas, algo dulce y algo salado para picar, y un globo transparente personalizado con el mensaje que quieras. ¿No tomás cerveza? Podés cambiarla por otra bebida. Se entrega armada en canasto de mimbre, lista para regalar.",
       "contenido": [
         "2 cervezas Corona (o la bebida que elijas)",
         "1 vaso de regalo",
@@ -133,7 +133,7 @@ window.MIXAMORE = {
       "color": "#2f2f2f",
       "imagen": "assets/img/caja-canasta-fernet.jpg",
       "resumen": "Fernet, cola y snacks para una previa o un cumpleaños.",
-      "descripcion": "Todo lo necesario para una buena previa: fernet, su cola, algo salado y algo dulce para acompañar, más un globo negro personalizado. Se entrega armada en canasto de mimbre con moño a cuadros.",
+      "descripcion": "Todo lo necesario para una buena previa: fernet, su cola, algo salado y algo dulce para acompañar, más un globo negro personalizado. Se entrega armada en canasto de mimbre con moño.",
       "contenido": [
         "1 Fernet (botella chica)",
         "1 gaseosa cola chica",
