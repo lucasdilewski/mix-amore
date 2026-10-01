@@ -68,7 +68,7 @@ window.MIXAMORE = {
         "1 Chocolatito Block",
         "1 Cofler Relleno de dulce de leche",
         "4 Bon o Bon surtidos",
-        "Chocolates individuales adicionales"
+        "1 Nugaton"
       ],
       "precio_base": 38000,
       "tamanios": {
@@ -164,7 +164,7 @@ window.MIXAMORE = {
       "emoji": "🌷",
       "color": "#c9678a",
       "imagen": "assets/img/caja-tulipanes-dulces.jpg",
-      "resumen": "Macetita de tulipanes de tela + golosinas surtidas, en caja con tapa transparente.",
+      "resumen": "Macetita de tulipanes + golosinas surtidas, en caja con tapa transparente.",
       "descripcion": "Una macetita de tulipanes artesanales acompañada de una selección de golosinas y chocolates, presentada en una box con tapa transparente. Ideal para cualquier ocasión donde quieras sorprender con algo distinto a las flores de siempre.",
       "contenido": [
         "1 macetita de tulipanes artesanales de tela",
@@ -194,6 +194,7 @@ window.MIXAMORE = {
       "contenido": [
         "1 peluche osito con corazón \"Te Amo\"",
         "1 globo de corazón",
+        "1 bolista de donuts bonafide",
         "1 Cofler Relleno",
         "2 Bon o Bon",
         "1 Nugatón",
@@ -213,16 +214,16 @@ window.MIXAMORE = {
       "emoji": "💋",
       "color": "#e05c78",
       "imagen": "assets/img/caja-sobre-besos.jpg",
-      "resumen": "Almohadón de corazón \"LOVE\" + globo de corazón + chocolates premium.",
-      "descripcion": "Un tierno almohadón con forma de corazón que dice \"LOVE\", junto a una selección de chocolates premium y un globo de corazón, presentados en una caja con forma de sobre cerrada con moño. Ideal para sorprender a esa persona especial.",
+      "resumen": "peluchito de corazón \"LOVE\" + globo de corazón + chocolates premium.",
+      "descripcion": "Un tierno peluchito con forma de corazón que dice \"LOVE\", junto a una selección de chocolates premium y un globo de corazón, presentados en una caja con forma de sobre cerrada con moño. Ideal para sorprender a esa persona especial.",
       "contenido": [
-        "1 almohadón de corazón \"LOVE\"",
+        "1 peluchito de corazón \"LOVE\"",
         "1 globo de corazón",
         "1 bolsa de Oreo",
         "1 Kinder Bueno",
         "1 Cofler Relleno",
         "2 Bon o Bon",
-        "Chocolate individual adicional",
+        "1 alfajor Milka",
         "Caja tipo sobre con moño"
       ],
       "precio_base": 29900,
@@ -239,15 +240,14 @@ window.MIXAMORE = {
       "emoji": "🐱",
       "color": "#5c4433",
       "imagen": "assets/img/caja-taza-gatuna.jpg",
-      "resumen": "Taza de gatitos + mate o té, dulce de leche y facturas, para un mimo total.",
-      "descripcion": "Un combo pensado para relajarse: una taza de cerámica con diseño de gatitos, un sobre de mate o té, un potecito de dulce de leche, facturas y un snack dulce saludable, más un sachet aromático con forma de corazón. Presentado en una caja animal print con moño rosa.",
+      "resumen": "Taza de gatitos + capuchino o té, para un mimo total.",
+      "descripcion": "Un combo pensado para relajarse: una taza de cerámica con diseño de gatitos, un sobre de capuchino o té, un alfajor HAPPY FOOD, capuchino y diversas galletitas sin azucar . Presentado en una caja animal print con moño rosa.",
       "contenido": [
         "1 taza de cerámica \"Strawberry Cat\"",
-        "1 sobre de mate/té La Virginia",
+        "1 sobre de capuchino/té La Virginia",
         "1 alfajor saludable Happy Food",
-        "1 potecito de dulce de leche",
-        "Facturas surtidas",
-        "1 sachet aromático con forma de corazón",
+        "1 chocolatito saludable",
+        "6 galletitas sin azucar",
         "1 globo de corazón"
       ],
       "precio_base": 39000,
@@ -265,10 +265,10 @@ window.MIXAMORE = {
       "color": "#a9713f",
       "imagen": "assets/img/caja-cafe-con-amor.jpg",
       "resumen": "Taza \"Me & Coffee\" + donuts y alfajor, para los fanáticos del café.",
-      "descripcion": "Para arrancar el día con onda: una taza \"Me & Coffee are a thing\", un sobre de mate o té, una bolsa de donuts Bonafide y un alfajor Bon o Bon, presentados en una caja animal print con globo de corazón.",
+      "descripcion": "Para arrancar el día con onda: una taza \"Me & Coffee are a thing\", un sobre de capuchino o té, una bolsa de donuts Bonafide y un alfajor Bon o Bon, presentados en una caja animal print con globo de corazón.",
       "contenido": [
         "1 taza \"Me & Coffee are a thing\"",
-        "1 sobre de mate/té La Virginia",
+        "1 sobre de capuchino/té La Virginia",
         "1 bolsa de Donuts Bonafide",
         "1 alfajor Bon o Bon",
         "1 globo de corazón"
